@@ -1,7 +1,8 @@
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .app{
@@ -13,18 +14,24 @@
 }
 
 .board{
-    width: calc(64px * 8);
-    height: calc(64px * 8);
+    width: calc(75px * 8);
+    height: calc(75px * 8);
     display: flex;
     flex-wrap: wrap;
 }
 
 .cell{
-    width: 64px;
-    height: 64px;
+    width: 75px;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cell img{
+    width: 70px;
+    height: 55px;
+    position: relative;
 }
 
 .black{
@@ -32,5 +39,5 @@
 }
 
 .white{
-    background-color: #cd8c16;
+    background-color: #dec9a2;
 }
