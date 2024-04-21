@@ -41,3 +41,7 @@
 .white{
     background-color: #dec9a2;
 }
+
+.selected{
+    background-color: brown;
+}
