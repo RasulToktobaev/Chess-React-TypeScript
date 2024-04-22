@@ -13,6 +13,9 @@ export class Knight extends Figure {
     canMove(target: Cell): boolean {
         if(!super.canMove(target))
             return false;
-        return true
+        const Dx = Math.abs(this.cell.x - target.x);
+        const Dy = Math.abs(this.cell.y - target.y);
+
+        return (Dx === 1 && Dy === 2) || (Dx === 2 && Dy === 1)
     }
 }
