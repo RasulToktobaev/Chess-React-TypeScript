@@ -54,8 +54,8 @@
 }
 
 .lost{
-    height: calc(50px - 60px);
-    padding: 30px;
+    height: calc(50vh - 60px);
+    padding: 60px;
     margin-left: 50px;
     background-color: lightgray;
 }

@@ -12,7 +12,7 @@ const LostFigures: FC<LostFiguresProps> = ({title, figures}) => {
             <h3>{title}</h3>
             {figures.map(figure =>
             <div key={figure.id}>
-                {figure.name} {figure.logo && <img src={figure.logo}/>}
+                {figure.name} {figure.logo && <img style={{width:"20px" ,height:'20px'}} src={figure.logo}/>}
             </div>
             )}
         </div>
